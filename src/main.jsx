@@ -2,7 +2,8 @@ import React, { createContext, useState } from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 
-export const server = "https://todo-app-backend-zb0x.onrender.com";
+export const server = import.meta.env.TODO_API;
+
 
 export const Context = createContext();
 export const Wrapper = () => {
