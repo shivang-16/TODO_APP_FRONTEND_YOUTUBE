@@ -1,0 +1,42 @@
+main {
+  width: 90vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login_form {
+  height: 400px;
+  width: 400px;
+  margin: auto;
+  text-align: center;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 1px 2px 5px black;
+  form {
+    display: flex;
+    flex-direction: column;
+
+    h2 {
+      margin-bottom: 20px;
+    }
+
+    input {
+      padding: 10px;
+      margin: 10px;
+      border-radius: 10px;
+      &[type="submit"] {
+        background-color: rgb(9, 112, 238);
+        color: white;
+        &:hover {
+          background-color: rgb(5, 96, 206);
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  p {
+    margin-top: 20px;
+  }
+}
