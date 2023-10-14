@@ -1,4 +1,5 @@
-# React + Vite
+# TodoApp - Youtube_Tutorial_Project
+  Link - https://www.youtube.com/playlist?list=PLe_U2_eyWPeMnmcWDSVffA2pvlobnv8zb
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
